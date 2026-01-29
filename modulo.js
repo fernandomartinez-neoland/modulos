@@ -9,6 +9,10 @@ import algo from './palindromo.js';
 // UNICAMENTE los modulos pueden hacer importaciones, no puedes importar nada a un fichero js que no sea tratado como tipo modulo desde html (regla valida SOLO si se trabaja con html, css y js puro)
 import { suma, multiplicacion, palindromo } from './palindromo.js'
 
+import {sumar} from './operaciones.js'
+
+const operacion_suma = document.querySelector("#operacion_suma");
+operacion_suma.addEventListener("submit", sumar)
 algo(5, 1);
 suma(2, 3);
 multiplicacion(4, 2);
