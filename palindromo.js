@@ -8,6 +8,9 @@ export function multiplicacion(a, b) {
     console.log(a * b)
 }
 
+// es OBLIGATORIO usa la palabra export SI Y SOLO SI se desea que otros ficheros tengan acceso a una funcion, pueden existir funciones que sean de uso exclusivo del fichero en donde fueron creados
+// deben determinar en cada funcion que declaren si es necesario o no que sea exportado (temas de buenas practicas, no le vas a dar un telefono movil a un bebe de 1 año porque no lo sabra usar, si exportan una funcion y esta no se usa fuera del fichero entonces estan desperdiciando espacio de memoria)
+
 export function palindromo(palabra) {
     // console.log(palabra);
     // let palindromo = false
